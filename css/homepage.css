@@ -1,0 +1,43 @@
+.form-div {
+	margin: 60px auto 60px;
+	padding :25px 15px 25px 15px;
+	border:2px solid #80ced7;
+	border-radius: .5em;
+	font-family: 'Lora',serif;
+}
+form p {
+	font-size: .92em;
+}
+.form-div.login {
+	margin-top: 130px;
+}
+.logout {
+	font-weight: bold;
+	color:red;
+}
+span{
+	color:blue;
+	font-weight: bold;
+}
+.container .training  {
+	font-weight: bold;
+	text-align: center;
+}
+.container .training span{
+	color:#e74c3c;
+}
+.container .p{
+	text-align: center;
+	font-size: 30px;
+	padding:20px;
+	opacity: 100%;
+	color: #FFF;
+	font-weight: 500;
+	background-color:#2c3e50;
+	border-radius: 25px;
+	outline: none;
+	user-select:none;
+}
+.container .p:hover{
+	background-color: tomato;
+}

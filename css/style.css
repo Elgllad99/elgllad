@@ -1,0 +1,251 @@
+*{
+	margin: -8.5px auto;
+	padding: 0;
+}
+body{
+	
+	font-family: 'Lora', serif,arial,tahoma;
+	background:  #d2dae2;
+	box-sizing:border-box;
+
+}
+.container {
+	margin: 0 auto;
+	background: #1e272e;
+	height: auto;
+	padding: 0px 60px 0px 60px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+	border-radius: 2.5px;
+	margin: 5px auto;
+	border-radius: 2px	
+
+}
+.container .error {
+	width:92%;
+	margin:0 auto;
+	padding: 10px 15px 15px;
+	color:#FF9494;
+	background-color:#1e272e;
+
+}
+.container .error li{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+	letter-spacing: 1.2px;
+	
+}
+.container .error2 {
+	width:92%;
+	margin:0 auto;
+	padding: 10px 15px 15px;
+	color:#FF9494;
+	background-color:#1e272e;
+	font-weight: bold;
+	margin-bottom: 2px
+}
+.container .error2 li{
+	margin-bottom: 1px
+}
+.form .title{
+	padding-top: 20px
+}
+.form .title h1,h2	 {
+	text-align: center;
+	font-weight: 500;
+	text-transform: uppercase;
+	color:#FFF;
+	letter-spacing: 3px;
+}
+hr{
+	margin-top: 7px;
+	margin-bottom: 7px;
+
+}
+.container .social-media{
+	display: flex;
+	justify-content:center;
+	margin-top: 10px;
+	margin-bottom: 15px ;
+
+}
+.container .social-media .item-facebook{
+	line-height: 35px;
+	width: 35px;
+	font-family: bold;
+	border: 2px solid #FFF;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px;
+
+}
+.container .social-media .item-facebook a{
+	color:#DDD;
+	font-size: 20px;
+
+}
+.container .social-media .item-facebook:hover{
+	background-color: #0f92f3;
+}
+.container .social-media .item-twitter {
+	line-height: 35px;
+	width: 35px;
+	font-family: bold;
+	border: 2px solid #FFF;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px;	
+}
+.container .social-media .item-twitter a{
+	color:#DDD;
+	font-size: 20px
+}
+.container .social-media .item-twitter:hover {
+	background: #1DA1F2
+}
+.container .social-media .item-pinterest {
+	line-height: 35px;
+	width: 35px;
+	font-family: bold;
+	border: 2px solid #FFF;
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	border-radius: 25px;
+	cursor: pointer;
+	padding: 10px;
+
+}
+.container .social-media .item-pinterest a{
+	color:#DDD;
+	font-size: 20px;
+
+
+}
+.container .social-media .item-pinterest:hover {
+
+	background:#E60023;
+}
+.form label{
+	white-space: normal;
+	text-transform: uppercase;
+	color:#F5F5F5;
+	direction:ltr;
+	letter-spacing: 2.5px;
+
+}
+.form input[type="text"],.form input[type="email"],.form input[type="password"]{
+	border: 0;
+	display:block;
+	margin: 7px 20px 20px 20px;
+	border: 3px solid #4b4b4b;
+	padding: 13px 13px;
+	width: 400px;
+	outline: none;
+	border-radius: 15px;
+	transition:.30s;
+	font-weight: 500;
+	position: relative;
+
+}
+.form input[type="text"]:focus,.form input[type="email"]:focus,.form input[type="password"]:focus{
+
+	width: 360px;
+	border-color:#2ecc71
+}
+
+.form input[type="submit"]{
+	border: 0;
+	background: none;
+	display:block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #1abc9c;
+	padding: 14px 40px; 
+	outline: none;
+	font-weight: 700;
+	border-radius: 20px;
+	transition:0.25s;
+	cursor: pointer;
+	line-height:30px;
+	width: 250px
+}
+.form input[type="submit"]:hover{
+	background: #2ecc71
+}
+.container .form .send{
+	text-align: right;
+	font-size: 13.5px;
+	
+	line-height:30px;
+	margin-bottom: 30px;
+	margin-top: 10px
+}
+.container .form .send a{
+	color:#ecf0f1;
+	text-decoration: underline;
+
+}
+.container .form .send:hover a{
+	color: #2ecc71;
+	font-weight: 500;
+}
+.container .form .send0{
+	text-align: center;
+	font-size: 17.5px;
+	line-height:30px;
+	margin-bottom: 10;
+
+}
+.container .form .send0 a{
+	color:#ecf0f1;
+	text-decoration: underline;
+
+
+}
+.container .form .send0:hover a{
+	color: #2ecc71;
+	font-weight: 500;
+}
+.container .login input[type="submit"]{
+	width: 200px	
+}
+.container .form .input_field i{
+	position: relative;
+	bottom: 50px;
+	left: 350px;
+	font-weight: bold;
+	font-size: 19px;
+}
+.container .title .head{
+	font-weight: bold;
+	margin-top: 10px;
+	padding-top: 10px
+}
+.container .row .welcome h3{
+	text-align: center;
+}
+.container .form .forgotPassword{
+	text-align: center;
+	font-size: 17px;
+	font-weight: 500;
+	line-height:30px;
+	margin-bottom: 10px;
+}
+.container .form .forgotPassword a{
+	color:#ecf0f1;
+	text-decoration: none;
+	letter-spacing: 1px
+}
+.container .form .forgotPassword:hover a{
+	color: tomato;
+}

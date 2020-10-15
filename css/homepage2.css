@@ -1,0 +1,64 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+}
+body{
+	font-family:'Lora', serif,arial,tahoma;
+
+}
+
+.container .side-bar header{
+	text-transform: capitalize;
+	font-size: 25px;
+	color: #FFF;
+	text-align: center;
+	line-height: 75px;
+	background: #063146;
+	letter-spacing: 1.5px;
+	font-weight: 500;
+	user-select:none ;
+}
+.container .side-bar header #science{
+	font-size: 22px;
+	padding-right:1px ;
+	letter-spacing: 3px
+}
+.container .side-bar {
+	position: fixed;
+	width: 430px;
+
+	height: 100%;
+	background-color: #042331;
+	text-transform: capitalize;
+	
+}
+.container .side-bar ul a{
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 65px;
+	font-size: 20px;
+	color: #FFF;
+	padding-left: 40px;
+	box-sizing:border-box;
+	border-top: 1px solid rgb(255,255,255,.1);
+	border-bottom: 2px solid black;
+	transition:.30s;
+}
+.container .side-bar ul li:hover {
+	padding-left: 50px
+}
+.container .side-bar ul a i{
+	margin-right: 15px
+}
+section{
+	
+	background:url(../images/3.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh
+}
+.container .paragraph{
+	color: red
+}
